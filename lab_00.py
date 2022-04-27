@@ -39,8 +39,8 @@ parameters and returns one variable, the result of multiplication of two numbers
 """
 
 def multiply(num_1, num_2):
-    # TODO
-    return None
+    result = num_1 * num_2
+    return result
 
 print(multiply(10, 12))
 
@@ -49,8 +49,8 @@ This next function I want you to implement raising a number to a certain power. 
 """
 
 def power(num, power_raise):
-    # TODO
-    return None
+    result = num ** power_raise
+    return result
 
 print(power(3, 2))
 
@@ -59,4 +59,13 @@ For practice, make any function you want! Write the function on your own and tel
 does in the docstrings. Include test calls!!!
 """
 
-# TODO, your function here
+def concatenate(Hello, World):
+    """ 
+    This function concatenates two strings and returns the result. 
+    The resulting string is then printed to the screen.
+    """
+    result = "Hello," + " World!"
+    return result
+
+print(concatenate("Hello,", " World!"))
+    
